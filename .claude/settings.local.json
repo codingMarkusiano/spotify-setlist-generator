@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm --version)",
+      "Bash(corepack --version)",
+      "Bash(corepack enable *)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir=false --turbopack --no-import-alias --use-npm --eslint --yes)"
+    ]
+  }
+}
