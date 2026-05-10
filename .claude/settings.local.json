@@ -4,7 +4,15 @@
       "Bash(pnpm --version)",
       "Bash(corepack --version)",
       "Bash(corepack enable *)",
-      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir=false --turbopack --no-import-alias --use-npm --eslint --yes)"
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir=false --turbopack --no-import-alias --use-npm --eslint --yes)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm test *)",
+      "Bash(npm run *)",
+      "Bash(node -e \"const d=require\\('docx'\\); console.log\\(Object.keys\\(d\\).filter\\(k=>!k.startsWith\\('_'\\)\\).sort\\(\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node *)",
+      "Bash(xxd)",
+      "Bash(SPOTIFY_CLIENT_ID=dummy SPOTIFY_CLIENT_SECRET=dummy npm run build)"
     ]
   }
 }
